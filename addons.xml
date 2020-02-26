@@ -61,8 +61,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.On Demand Play 2.0"
-       name="[COLOR lawngreen]On Demand Play 2.0[/COLOR]"
+<addon id="plugin.video.On Demand Play"
+       name="[COLOR lawngreen]On Demand Play[/COLOR]"
        version="2.0"
        provider-name="GTA Soft">
   <requires>
@@ -86,8 +86,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">On Demand Play 2.0</summary>
-    <description lang="en">On Demand Play 2.0 LTDA</description>
+    <summary lang="en">On Demand Play</summary>
+    <description lang="en">On Demand Play LTDA</description>
     <platform>all</platform>
   </extension>
 </addon>
