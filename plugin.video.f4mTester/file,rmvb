@@ -7,7 +7,7 @@
 </item>
 
 <item>
-<title>[COLOR lime][B]Lista:1[/B][/COLOR]</title>
+<title>[COLOR lime][B]F4M Lista 1[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -30,7 +30,7 @@
 </item>
 
 <item>
-<title>[COLOR lime][B]Lista:2[/B][/COLOR]</title>
+<title>[COLOR lime][B]F4M Lista 2[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -53,7 +53,7 @@
 </item>
 
 <item>
-<title>[COLOR lime][B]Lista:3[/B][/COLOR]</title>
+<title>[COLOR lime][B]F4M Lista 3[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
