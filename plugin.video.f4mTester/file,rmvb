@@ -7,93 +7,10 @@
 </item>
 
 <item>
-<title>[COLOR lime][B]F4M Lista 1[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*)</expres>
-<page>https://gelsonkodi.blogspot.com/2020/02/multicanais.html</page>
-<referer>https://origin.topcanais.com/</referer>
-<x-forward></x-forward>
-<agent>Kodi/18.0</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<title>[COLOR dodgerblue][B]MULTI CANAIS[/B][/COLOR]</title>
+<link>ignorme</link>
+<externallink>https://gelsonkodi.blogspot.com/2020/01/tv.html</externallink>
 <page></page>
-</regex>
+ <thumbnail>https://i.ytimg.com/vi/PfyQuZLl9CE/maxresdefault.jpg</thumbnail>
 </item>
 
-<item>
-<title>[COLOR lime][B]F4M Lista 2[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*)</expres>
-<page>https://gelsonkodi.blogspot.com/2020/02/lista-2.html</page>
-<referer>https://origin.topcanais.com/</referer>
-<x-forward></x-forward>
-<agent>Kodi/18.0</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR lime][B]F4M Lista 3[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*)</expres>
-<page>https://gelsonkodi.blogspot.com/2020/02/lista-3.html</page>
-<referer>https://origin.topcanais.com/</referer>
-<x-forward></x-forward>
-<agent>Kodi/18.0</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
-
-<item>
-<title>[COLOR lime][B]F4M Lista 4[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*)</expres>
-<page>https://gelsonkodi.blogspot.com/2020/03/lista-4.html</page>
-<referer>https://origin.topcanais.com/</referer>
-<x-forward></x-forward>
-<agent>Kodi/18.0</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
